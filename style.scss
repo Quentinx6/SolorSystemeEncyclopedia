@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto-Medium.ttf");
+}
+body{
+    background-image: url("./fond.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Roboto;
+    .bienvenue{
+        background-image: url("fondBienvenue.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        .englobe{
+            margin-top: 250px;
+            padding: 30px 50px;
+            display: inline-block;
+            margin: 250px auto;
+            background-color: rgba(10, 10, 10, 0.3);
+            .divTitre{
+                text-align: center;
+                h1{
+                font-size: 40px;  
+                }
+            }
+            .divButton{
+                text-align: center;
+                margin-top: 50px;
+                button{
+                    margin-top: 50px;
+                    padding: 10px 20px;
+                    background-color: rgb(4, 4, 110);
+                    border: 1px solid black;
+                    color:#fff;
+                    &:hover{
+                        background-color: rgb(1, 1, 51);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .sun{
+            display: inline-block;
+            height: 800px;
+            width: 150px;
+        }
+        .mercure{
+            margin-left: 68px;
+            display: inline-block;
+            height: 800px;
+            width: 30px;
+        }
+        .venus{
+            margin-left: 18px;
+            display: inline-block;
+            height: 800px;
+            width: 40px;
+        }
+        .terre{
+            margin-left: 10px;
+            display: inline-block;
+            height: 800px;
+            width: 60px;
+        }
+        .mars{
+            margin-left: 10px;
+            display: inline-block;
+            height: 800px;
+            width: 50px;
+        }
+        .jupiter{
+            margin-left: 138px;
+            display: inline-block;
+            height: 800px;
+            width: 280px;
+        }
+        .saturne{
+            margin-left: 10px;
+            display: inline-block;
+            height: 800px;
+            width: 270px;
+        }
+        .uranus{
+            margin-left: 30px;
+            display: inline-block;
+            height: 800px;
+            width: 150px;
+        }
+        .neptune{
+            margin-left: 20px;
+            display: inline-block;
+            height: 800px;
+            width: 150px;
+        }
+    }
+}
